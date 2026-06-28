@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 190,
+  "ingredient": {
+    "item": "ores:raw_platinum"
+  },
+  "result": {
+    "id": "ores:platinum"
+  }
+}

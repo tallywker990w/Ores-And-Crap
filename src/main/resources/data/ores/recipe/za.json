@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "ores:reinforcedgoldtemplate"
+  },
+  "base": {
+    "item": "minecraft:gold_ingot"
+  },
+  "addition": {
+    "item": "ores:platinum"
+  },
+  "result": {
+    "id": "ores:reinforced_gold_ingot"
+  }
+}

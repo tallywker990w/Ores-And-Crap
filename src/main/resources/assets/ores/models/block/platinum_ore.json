@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ores:block/platinum",
+    "up": "ores:block/platinum",
+    "north": "ores:block/platinum",
+    "east": "ores:block/platinum",
+    "south": "ores:block/platinum",
+    "west": "ores:block/platinum",
+    "particle": "ores:block/platinum"
+  },
+  "render_type": "solid"
+}

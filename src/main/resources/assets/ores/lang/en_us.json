@@ -1,0 +1,19 @@
+{
+  "item.ores.platinum_ore": "Platinum Ore",
+  "item.ores.raw_platinum": "Raw Platinum",
+  "item.ores.platinum": "Platinum",
+  "block.ores.platinum_ore": "Platinum Ore",
+  "item_group.ores.ores": "Ores",
+  "item.ores.platinum_sword": "Platinum Sword",
+  "item.ores.reinforced_gold_pickaxe": "Reinforced Gold Pickaxe",
+  "item.ores.reinforced_gold_armor_leggings": "Reinforced Gold Armor Leggings",
+  "item.ores.reinforced_gold_armor_chestplate": "Reinforced Gold Armor Chestplate",
+  "item.ores.reinforced_gold_armor_boots": "Reinforced Gold Armor Boots",
+  "item.ores.reinforced_gold_armor_helmet": "Reinforced Gold Armor Helmet",
+  "item.ores.reinforced_rod": "Reinforced Rod",
+  "item.ores.reinforced_gold_ingot": "Reinforced Gold Ingot",
+  "item.ores.reinfor": "Reinforced Gold Axe",
+  "item.ores.reinforcedgoldtemplate": "Reinforced gold template",
+  "advancements.wowthatsuseless.title": "Wow thats useless",
+  "advancements.wowthatsuseless.descr": "Wow thats really useless"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "ac "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "b": {
+      "item": "ores:platinum"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "ores:platinum_sword",
+    "count": 1
+  }
+}
