@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlatinumSword"
+    },
+    "name": "platinum_sword",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/blockstates/platinum_ore.json",
+          "src/main/java/net/mcreator/ores/block/PlatinumOreBlock.java",
+          "src/main/resources/data/ores/loot_table/blocks/platinum_ore.json",
+          "src/main/resources/assets/ores/models/item/platinum_ore.json",
+          "src/main/resources/data/ores/worldgen/placed_feature/platinum_ore.json",
+          "src/main/resources/data/ores/neoforge/biome_modifier/platinum_ore_biome_modifier.json",
+          "src/main/resources/data/ores/worldgen/configured_feature/platinum_ore.json",
+          "src/main/resources/assets/ores/models/block/platinum_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawPlatinum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ores/item/RawPlatinumItem.java",
+          "src/main/resources/assets/ores/models/item/raw_platinum.json"
+        ]
+      }
+    },
+    {
+      "name": "Platinum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/models/item/platinum.json",
+          "src/main/java/net/mcreator/ores/item/PlatinumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Platinumsmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumsmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/platinumsmelting.json",
+          "src/main/resources/data/ores/advancement/recipes/platinumsmelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Platinumsmeltingagain",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumsmeltingagain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/advancement/recipes/platinumsmeltingagain.json",
+          "src/main/resources/data/ores/recipe/platinumsmeltingagain.json"
+        ]
+      }
+    },
+    {
+      "name": "Ores",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PlatinumWeightLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "platinum_weight_logic",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/ores/procedures/PlatinumWeightLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ores/item/PlatinumSwordItem.java",
+          "src/main/resources/assets/ores/models/item/platinum_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "PlatinumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/platinum_sword.json",
+          "src/main/resources/data/ores/advancement/recipes/platinum_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGoldPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gold_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/models/item/reinforced_gold_pickaxe.json",
+          "src/main/java/net/mcreator/ores/item/ReinforcedGoldPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGoldPickaxeRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gold_pickaxe_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/reinforced_gold_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGoldArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gold_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ores/item/ReinforcedGoldArmorItem.java",
+          "src/main/resources/assets/ores/models/item/reinforced_gold_armor_boots.json",
+          "src/main/resources/assets/ores/models/item/reinforced_gold_armor_chestplate.json",
+          "src/main/resources/assets/ores/models/item/reinforced_gold_armor_leggings.json",
+          "src/main/resources/assets/ores/models/item/reinforced_gold_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGoldArmorrec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gold_armorrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/reinforced_gold_armor.json",
+          "src/main/resources/data/ores/advancement/recipes/reinforced_gold_armorrec.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/models/item/reinforced_rod.json",
+          "src/main/java/net/mcreator/ores/item/ReinforcedRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Chestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Leggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Boots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/boots.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGoldIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_gold_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ores/item/ReinforcedGoldIngotItem.java",
+          "src/main/resources/assets/ores/models/item/reinforced_gold_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Reinf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/reinf.json"
+        ]
+      }
+    },
+    {
+      "name": "Reinfor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinfor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/models/item/reinfor.json",
+          "src/main/java/net/mcreator/ores/item/ReinforItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Reinforcedgoldtemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedgoldtemplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ores/models/item/reinforcedgoldtemplate.json",
+          "src/main/java/net/mcreator/ores/item/ReinforcedgoldtemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Wowthatsuseless",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wowthatsuseless",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/advancement/wowthatsuseless.json"
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ores/recipe/za.json",
+          "src/main/resources/data/ores/advancement/recipes/a.json"
+        ]
+      }
+    },
+    {
+      "name": "Textx",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "textx",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/ores/procedures/TextxProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PlatinumOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:PlatinumOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ReinforcedGoldPickaxe",
+      "~CUSTOM:PlatinumSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ReinforcedGoldArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ReinforcedGoldArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ReinforcedGoldArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ReinforcedGoldArmor.boots"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Reinfor"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ores.platinum_ore": "Platinum Ore",
+      "item.ores.raw_platinum": "Raw Platinum",
+      "item.ores.platinum": "Platinum",
+      "block.ores.platinum_ore": "Platinum Ore",
+      "item_group.ores.ores": "Ores",
+      "item.ores.platinum_sword": "Platinum Sword",
+      "item.ores.reinforced_gold_pickaxe": "Reinforced Gold Pickaxe",
+      "item.ores.reinforced_gold_armor_leggings": "Reinforced Gold Armor Leggings",
+      "item.ores.reinforced_gold_armor_chestplate": "Reinforced Gold Armor Chestplate",
+      "item.ores.reinforced_gold_armor_boots": "Reinforced Gold Armor Boots",
+      "item.ores.reinforced_gold_armor_helmet": "Reinforced Gold Armor Helmet",
+      "item.ores.reinforced_rod": "Reinforced Rod",
+      "item.ores.reinforced_gold_ingot": "Reinforced Gold Ingot",
+      "item.ores.reinfor": "Reinforced Gold Axe",
+      "item.ores.reinforcedgoldtemplate": "Reinforced gold template",
+      "advancements.wowthatsuseless.title": "Wow thats useless",
+      "advancements.wowthatsuseless.descr": "Wow thats really useless"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/ores/init/OresModBlocks.java",
+      "src/main/java/net/mcreator/ores/init/OresModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/ores/init/OresModTabs.java",
+      "src/main/java/net/mcreator/ores/OresMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ores",
+    "modName": "ores",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ores"
+  },
+  "mcreatorVersion": 202600114619
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Ores",
+    "icon": {
+      "value": "CUSTOM:PlatinumOre"
+    },
+    "showSearch": false
+  }
+}
